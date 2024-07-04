@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  order_code: MyString
+  verified: false
+  client: one
+  service: one
+  paid: 1.5
+  payment_id: MyString
+  net: 1.5
+  transaction_id: MyString
+  client_ip: MyString
+  created_by_admin: false
+  kind: 1
+
+two:
+  order_code: MyString
+  verified: false
+  client: two
+  service: two
+  paid: 1.5
+  payment_id: MyString
+  net: 1.5
+  transaction_id: MyString
+  client_ip: MyString
+  created_by_admin: false
+  kind: 1
