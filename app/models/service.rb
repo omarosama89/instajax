@@ -6,4 +6,6 @@ class Service < ApplicationRecord
 
   validates :request_method, inclusion: REQUEST_METHODS
   validates :service_family, inclusion: SERVICE_FAMILIES
+
+  scope :active, -> { where(active: true) }
 end

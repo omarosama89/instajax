@@ -50,6 +50,9 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
+    active_interaction (5.3.0)
+      activemodel (>= 5.2, < 8)
+      activesupport (>= 5.2, < 8)
     activeadmin (3.2.2)
       arbre (~> 1.2, >= 1.2.1)
       csv
@@ -330,6 +333,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  active_interaction (~> 5.3)
   activeadmin
   bootsnap
   capybara
