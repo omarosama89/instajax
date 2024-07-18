@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     resources :services, only: :index
+    resources :clients, only: :index
   end
   # Defines the root path route ("/")
   # root "posts#index"
